@@ -19,8 +19,8 @@ syntax enable
 set background=dark 
 colorscheme peaksea
 " color scheme
-
 filetype plugin on
+set ofu=syntaxcomplete#Complete
 set number
 set wrap!
 set expandtab
