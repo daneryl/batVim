@@ -21,6 +21,8 @@ colorscheme peaksea
 " color scheme
 filetype plugin on
 set ofu=syntaxcomplete#Complete
+set exrc  " enable per-directory .vimrc files
+set secure " disable unsafe commands in local .vimrc files
 set number
 set wrap!
 set expandtab
