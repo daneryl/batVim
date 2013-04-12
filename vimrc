@@ -27,6 +27,7 @@ set number
 set wrap!
 set expandtab
 set autoindent
+set cindent
 set smartindent
 set tabstop=2
 set shiftwidth=2
