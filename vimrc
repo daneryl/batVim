@@ -11,6 +11,7 @@ set laststatus=2
 " powerline
 
 set hlsearch
+set incsearch
 set ic " case insensitive search
 
 " color scheme
@@ -55,10 +56,15 @@ nmap <C-j> ddp
 vmap <C-k> xkP`[V`]
 vmap <C-j> xp`[V`]
 
+map <leader>k {<S-O>
+map <leader>j }<S-O>
+map <leader>o ]}<S-O>
+map <leader><S-o> [{o
+
+nmap <leader>n :NERDTreeToggle<CR>
+
 nnoremap <leader>v <C-w>v
 nnoremap <leader>h <C-w>s
-nmap <silent> <leader>k :wincmd k<CR>
-nmap <silent> <leader>j :wincmd j<CR>
 nmap <silent> <leader>h :wincmd h<CR>
 nmap <silent> <leader>l :wincmd l<CR>
 nmap <C-l> $
