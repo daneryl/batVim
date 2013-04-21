@@ -61,10 +61,11 @@ map <leader><S-o> [{o
 
 nmap <leader>n :NERDTreeToggle<CR>
 
-nnoremap <leader>v <C-w>v
+nnoremap <leader>v <C-w>
 nnoremap <leader>h <C-w>s
 nmap <silent> <leader>h :wincmd h<CR>
 nmap <silent> <leader>l :wincmd l<CR>
 nmap <C-l> $
 nmap <C-h> 0
 nmap ff <CR>
+nmap <leader>q :q<CR>
