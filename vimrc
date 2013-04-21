@@ -1,7 +1,5 @@
 execute pathogen#infect()
 
-let g:ackprg="/opt/local/bin/ack-5.12 -H --nocolor --nogroup --column"
-
 " ctrlp
 let g:ctrlp_map = '<c-f>'
 " ctrp
