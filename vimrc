@@ -68,5 +68,3 @@ nmap <silent> <leader>l :wincmd l<CR>
 nmap <C-l> $
 nmap <C-h> 0
 nmap ff <CR>
-imap ff <CR>
-imap jj <Esc>
