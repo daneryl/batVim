@@ -19,6 +19,7 @@ set background=dark
 colorscheme peaksea
 " color scheme
 filetype plugin on
+filetype indent on
 set ofu=syntaxcomplete#Complete
 set exrc  " enable per-directory .vimrc files
 set secure " disable unsafe commands in local .vimrc files
@@ -33,6 +34,12 @@ set shiftwidth=2
 set pastetoggle=<F2>
 set encoding=utf-8
 set noswapfile
+
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
+
 nnoremap    <F3> :<C-U>setlocal lcs=tab:>-,trail:·,eol:$ list! list? <CR>
 
 let mapleader = ","
@@ -61,7 +68,7 @@ map <leader><S-o> [{o
 
 nmap <leader>n :NERDTreeToggle<CR>
 
-nnoremap <leader>v <C-w>
+nnoremap <leader>v <C-w>v
 nnoremap <leader>h <C-w>s
 nmap <silent> <leader>h :wincmd h<CR>
 nmap <silent> <leader>l :wincmd l<CR>
