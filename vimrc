@@ -7,7 +7,7 @@ let g:ctrlp_map = '<c-f>'
 " powrline
 set laststatus=2
 " powerline
-
+set backspace=indent,eol,start
 set hlsearch
 set incsearch
 set ic " case insensitive search
