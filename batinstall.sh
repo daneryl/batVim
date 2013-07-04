@@ -3,7 +3,8 @@
 #cp -R ./vim/* ~/.vim
 #cat ./vimrc > ~/.vimrc
 
-cp -fR $(pwd)/* ~/.bat_vim 2>/dev/null;
+mkdir ~/.bat_vim 2>/dev/null
+cp -fR $(pwd)/* ~/.bat_vim 2>/dev/null
 
 echo 'set runtimepath+=~/.bat_vim
 source ~/.bat_vim/config/base.vim
