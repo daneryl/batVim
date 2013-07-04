@@ -9,13 +9,6 @@ let g:snipMate.scope_aliases = {}
 let g:snipMate.scope_aliases['html'] = 'html,htmlangularjs'
 " snipmate
 
-" rainbowparens
-au VimEnter * RainbowParenthesesToggle
-au Syntax * RainbowParenthesesLoadRound
-au Syntax * RainbowParenthesesLoadSquare
-au Syntax * RainbowParenthesesLoadBraces
-" rainbowparens
-
 " powerline
 set laststatus=2
 " powerline
