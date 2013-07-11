@@ -6,7 +6,7 @@ let g:ctrlp_working_path_mode = 'a' " to search only in the directory where vim 
 " snipmate
 let g:snipMate = {}
 let g:snipMate.scope_aliases = {}
-let g:snipMate.scope_aliases['html'] = 'html,htmlangularjs'
+let g:snipMate.scope_aliases['html'] = 'html,angularjs-html'
 " snipmate
 
 " powerline
@@ -19,3 +19,6 @@ let g:indent_guides_auto_colors = 0
 hi IndentGuidesOdd  ctermbg=237
 hi IndentGuidesEven ctermbg=235
 " indentlines
+"multiple-cursors
+let g:multi_cursor_next_key='<C-d>'
+"multiple-cursors 
