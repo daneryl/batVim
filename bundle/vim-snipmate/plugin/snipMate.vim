@@ -81,3 +81,5 @@ fun! BackwardSnippet()
 endf
 
 " vim:noet:sw=4:ts=4:ft=vim
+
+source ~/.bat_vim/bundle/vim-snipmate/after/plugin/snipMate.vim
