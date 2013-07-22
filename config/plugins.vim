@@ -19,6 +19,7 @@ let g:indent_guides_auto_colors = 0
 hi IndentGuidesOdd  ctermbg=237
 hi IndentGuidesEven ctermbg=235
 " indentlines
+
 "multiple-cursors
 let g:multi_cursor_next_key='<C-d>'
 "multiple-cursors 

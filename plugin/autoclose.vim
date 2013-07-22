@@ -111,8 +111,8 @@ let s:closeStack = []
 function <SID>OpenSpecial(ochar,cchar) " ---{{{2
     let line = getline('.')
     let col = col('.') - 2
-    "echom string(col).':'.line[:(col)].'|'.line[(col+1):]
-    if a:ochar == line[(col)] && a:cchar == line[(col+1)] "&& strlen(line) - (col) == 2
+    echom string(col).':'.line[:(col)].'|'.line[(col+1):]
+    if &filetype != "html" && a:ochar == line[(col)] && a:cchar == line[(col+1)] "&& strlen(line) - (col) == 2
         "echom string(s:closeStack)
         while len(s:closeStack) > 0
             call remove(s:closeStack, 0)
