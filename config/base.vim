@@ -28,3 +28,8 @@ syntax enable
 set background=dark 
 colorscheme peaksea
 " color scheme
+
+" airline
+set guifont=Source\ Code\ Pro
+let g:airline_powerline_fonts = 1
+let g:airline_enable_fugitive=1
