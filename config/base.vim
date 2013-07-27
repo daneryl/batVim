@@ -30,6 +30,7 @@ colorscheme peaksea
 " color scheme
 
 " airline
-set guifont=Source\ Code\ Pro
+"set guifont=Source\ Code\ Pro
+"set guifont=Menlo
 let g:airline_powerline_fonts = 1
 let g:airline_enable_fugitive=1
