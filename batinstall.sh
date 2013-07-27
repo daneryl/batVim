@@ -11,6 +11,6 @@ source ~/.bat_vim/config/base.vim
 source ~/.bat_vim/config/plugins.vim
 source ~/.bat_vim/config/binds.vim' > ~/.vimrc
 
-echo -e "\033[0;33m"
+echo "\033[0;33m"
 cat ./success.txt 
-echo -e "\033[0m"
+echo "\033[0m"
