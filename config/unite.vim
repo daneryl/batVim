@@ -29,7 +29,7 @@ let g:unite_cursor_line_highlight = 'TabLine'
 
 nnoremap [unite] <Nop>
 nmap <space> [unite]
-nnoremap <C-f> :<C-u>Unite -start-insert file_rec/async<CR>
+nnoremap <C-f> :<C-u>Unite -start-insert file_rec/async -no-split -auto-preview<CR>
 nnoremap <silent> [unite]r :<C-u>Unite -buffer-name=register register<CR>
 nnoremap <silent> [unite]v :<C-u>Unite file_rec -start-insert -auto-preview -vertical -default-action=right<CR>
 nnoremap <silent> [unite]m :<C-u>Unite file_mru<CR>
@@ -42,4 +42,3 @@ nnoremap <leader>g :UniteWithCursorWord grep:.<cr>
 nnoremap <F4> :<C-u>UniteSessionSave
 
 let g:unite_source_session_enable_auto_save = 1
-autocmd VimEnter * UniteSessionLoad
