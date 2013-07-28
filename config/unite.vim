@@ -1,7 +1,7 @@
 call unite#filters#matcher_default#use(['matcher_fuzzy'])
 
-call unite#custom#source('file_rec', 'ignore_pattern', 'bower_components\|node_modules\|dist/\|coverage|.sass-cache\|.git')
-call unite#custom#source('grep', 'ignore_pattern', 'bower_components\|node_modules\|dist/\|coverage\|.sass-cache\|.git')
+call unite#custom#source('file_rec', 'ignore_pattern', '.ico\|.png\|.jpg\|bower_components\|node_modules\|dist/\|coverage\|.sass-cache\|.git')
+call unite#custom#source('grep', 'ignore_pattern', '.ico\|.png\|.jpg\|bower_components\|node_modules\|dist/\|coverage\|.sass-cache\|.git')
 
 let g:unite_source_grep_command="ag"
 let g:unite_source_grep_default_opts = "-i --nocolor --nogroup"
