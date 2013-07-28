@@ -30,8 +30,9 @@ let g:unite_cursor_line_highlight = 'TabLine'
 nnoremap [unite] <Nop>
 nmap <space> [unite]
 nnoremap <C-f> :<C-u>Unite -start-insert file_rec/async -no-split -auto-preview<CR>
-nnoremap <silent> [unite]r :<C-u>Unite -buffer-name=register register<CR>
-nnoremap <silent> [unite]v :<C-u>Unite file_rec -start-insert -auto-preview -vertical -default-action=right<CR>
+nnoremap <silent> [unite]f :<C-u>UniteWithCursorWord  -start-insert file_rec/async -no-split -auto-preview<CR>
+nnoremap <silent> [unite]F :<C-u>UniteWithCursorWord file_rec/async -auto-preview -vertical -default-action=right<CR>
+nnoremap <silent> [unite]v :<C-u>Unite file_rec/async -start-insert -auto-preview -vertical -default-action=right<CR>
 nnoremap <silent> [unite]m :<C-u>Unite file_mru<CR>
 nnoremap <silent> [unite]y :<C-u>Unite history/yank<CR>
 nnoremap <silent> [unite]g :Unite grep:. -auto-preview -auto-highlight -no-split<cr>
