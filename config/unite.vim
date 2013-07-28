@@ -17,3 +17,4 @@ nnoremap <C-m> :<C-u>Unite file_mru<CR>
 nnoremap <C-y> :<C-u>Unite history/yank<CR>
 nnoremap <leader>g :UniteWithCursorWord grep:.<cr>
 nnoremap <C-g> :Unite grep:.<cr>
+nnoremap <C-b> :Unite -quick-match buffer<cr>
