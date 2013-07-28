@@ -13,6 +13,7 @@ let g:unite_winheight = 10
 let g:unite_source_history_yank_enable = 1
 
 nnoremap <C-f> :<C-u>Unite -start-insert file_rec<CR>
+nnoremap <C-a> :<C-u>Unite -start-insert file_rec -auto-preview -vertical -default-action=right<CR>
 nnoremap <C-m> :<C-u>Unite file_mru<CR>
 nnoremap <C-y> :<C-u>Unite history/yank<CR>
 nnoremap <leader>g :UniteWithCursorWord grep:.<cr>
