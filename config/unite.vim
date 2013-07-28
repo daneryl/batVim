@@ -34,11 +34,11 @@ nnoremap <silent> [unite]r :<C-u>Unite -buffer-name=register register<CR>
 nnoremap <silent> [unite]v :<C-u>Unite file_rec -start-insert -auto-preview -vertical -default-action=right<CR>
 nnoremap <silent> [unite]m :<C-u>Unite file_mru<CR>
 nnoremap <silent> [unite]y :<C-u>Unite history/yank<CR>
-nnoremap <silent> [unite]g :Unite grep:.<cr>
+nnoremap <silent> [unite]g :Unite grep:. -auto-preview -auto-highlight -no-split<cr>
 nnoremap <silent> [unite]b :Unite -quick-match buffer<cr>
 nnoremap <silent> [unite]o :Unite outline -auto-highlight<cr>
 nnoremap <silent> [unite]s :Unite session<cr>
-nnoremap <leader>g :UniteWithCursorWord grep:.<cr>
+nnoremap <leader>g :UniteWithCursorWord grep:. -auto-preview -auto-highlight -no-split<cr>
 nnoremap <F4> :<C-u>UniteSessionSave
 
 let g:unite_source_session_enable_auto_save = 1
