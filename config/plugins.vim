@@ -1,8 +1,3 @@
-" ctrlp
-let g:ctrlp_map = '<c-f>'
-let g:ctrlp_working_path_mode = 'a' " to search only in the directory where vim was executed
-" ctrp
-
 " snipmate
 let g:snipMate = {}
 let g:snipMate.scope_aliases = {}
