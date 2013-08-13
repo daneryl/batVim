@@ -2,6 +2,7 @@
 let g:snipMate = {}
 let g:snipMate.scope_aliases = {}
 let g:snipMate.scope_aliases['html'] = 'html,angularjs-html'
+let g:snipMate.scope_aliases['javascript'] = 'javascript,jasmine'
 " snipmate
 
 " powerline
