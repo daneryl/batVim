@@ -1,0 +1,30 @@
+#GENERIC
+
+snippet callback
+abbr    cb
+options word
+  function(${1:arguments}) {
+    ${2:code...}
+  }
+
+
+#JASMINE
+snippet describe
+abbr    des
+options word
+	describe('${1:description}', function(){
+		${2:code...}
+	});
+
+snippet beforeEach
+abbr    bfe
+options word
+	beforeEach(function(){
+		${1:code...}
+	});
+
+snippet it
+options word
+	it('should ${1:....}', function(){
+		${2:code...}
+	});
