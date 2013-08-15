@@ -26,6 +26,7 @@ let g:unite_split_rule = 'botright'
 let g:unite_winheight = 10
 let g:unite_source_history_yank_enable = 1
 let g:unite_cursor_line_highlight = 'TabLine'
+let g:unite_source_file_rec_min_cache_files = 0
 
 nnoremap [unite] <Nop>
 nmap <space> [unite]
