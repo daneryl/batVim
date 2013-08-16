@@ -4,7 +4,7 @@ call unite#filters#matcher_default#use(['matcher_fuzzy'])
 " Use the rank sorter for everything
 call unite#filters#sorter_default#use(['sorter_rank'])
 
-call unite#custom_source('file_rec,file_rec/async,file_mru,file,buffer,grep', 'max_candidates', '10')
+call unite#custom_source('file_rec,file_rec/async,file_mru,file,buffer', 'max_candidates', '10')
 
 call unite#custom_source('file_rec,file_rec/async,file_mru,file,buffer,grep',
       \ 'ignore_pattern', join([
