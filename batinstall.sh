@@ -9,6 +9,10 @@ source ~/.bat_vim/config/neocomplcache.vim
 source ~/.bat_vim/config/neosnippet.vim
 source ~/.bat_vim/config/unite.vim' > ~/.vimrc
 
+touch ~/.viminfo
+
+make -C ~/.bat_vim/bundle/vimproc.vim/
+
 echo "\033[0;33m"
 cat ./success.txt 
 echo "\033[0m"
