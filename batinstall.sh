@@ -7,7 +7,7 @@ source ~/.bat_vim/config/plugins.vim
 source ~/.bat_vim/config/binds.vim
 source ~/.bat_vim/config/neocomplcache.vim
 source ~/.bat_vim/config/neosnippet.vim
-source ~/.bat_vim/config/unite' > ~/.vimrc
+source ~/.bat_vim/config/unite.vim' > ~/.vimrc
 
 echo "\033[0;33m"
 cat ./success.txt 
