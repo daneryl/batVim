@@ -24,6 +24,7 @@ set clipboard=unnamed
 
 " color scheme
 set t_Co=256
+syntax on
 syntax enable
 set background=dark 
 colorscheme peaksea
