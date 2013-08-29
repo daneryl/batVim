@@ -9,8 +9,13 @@ source ~/.bat_vim/config/neocomplcache.vim
 source ~/.bat_vim/config/neosnippet.vim
 source ~/.bat_vim/config/unite.vim' > ~/.vimrc
 
-touch ~/.viminfo
+#touch ~/.viminfo
+#[ -w ~/.viminfo != true ] && echo "Write = yes"
 
+if [ ! -w ~/.viminfo ] 
+then 
+echo "\033[31myou need write permission for .viminfo file\n\033[0m"
+fi
 make -C ~/.bat_vim/bundle/vimproc.vim/
 
 echo "\033[0;33m"
