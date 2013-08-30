@@ -16,10 +16,6 @@ hi IndentGuidesOdd  ctermbg=237
 hi IndentGuidesEven ctermbg=235
 " indentlines
 
-"multiple-cursors
-let g:multi_cursor_next_key='<C-d>'
-"multiple-cursors 
-
 "syntastyc
 let g:syntastic_enable_signs=1
 let g:syntastic_check_on_open=1
