@@ -40,7 +40,6 @@ nnoremap <silent> [unite]m :<C-u>Unite file_mru<CR>
 nnoremap <silent> [unite]y :<C-u>Unite history/yank<CR>
 nnoremap <silent> [unite]g :Unite grep:. -auto-preview -auto-highlight -no-split<cr>
 nnoremap <silent> [unite]b :Unite -quick-match buffer<cr>
-nnoremap <silent> [unite]o :Unite outline -auto-highlight<cr>
 nnoremap <silent> [unite]s :Unite session<cr>
 nnoremap <leader>g :UniteWithCursorWord grep:. -auto-preview -auto-highlight -no-split<cr>
 nnoremap <F4> :<C-u>UniteSessionSave
