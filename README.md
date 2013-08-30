@@ -9,7 +9,7 @@
       '8o          V          o8'       /_____/  \\__,_/  \\__/   |___/  /_/  /_/ /_/ /_/
         `                     `        
     
-  ## Instalation
+## Instalation
 
 - Backup your **.vimrc** file if you want to keep it (installation will overwrite it).
 - It is strongly recommended using [Iterm2](http://www.iterm2.com/) or [macVim](https://code.google.com/p/macvim/).  
