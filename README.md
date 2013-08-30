@@ -1,10 +1,8 @@
-## Instalación
+## Instalation
 
-
-- Hacer backup de **.vimrc**  si se quiere conservar, ya que al instalar se sobrescribe.
-- recomendable [Iterm2](http://www.iterm2.com/) o [macVim](https://code.google.com/p/macvim/).
-- **./batinstall.sh** instala todo creando una carpeta ~/.bat_vim con todas las dependencias y modifica ~/.vimrc con las inclusiones
-- Si quieres que funcione el ctrl-s para guardar hay que añadir "**stty -ixon -ixoff**" en ~/.bash_profile (SOLO MAC !)
+- Backup your **.vimrc** file if you want to keep it (installation will overwrite it).
+- It is strongly recommended using [Iterm2](http://www.iterm2.com/) or [macVim](https://code.google.com/p/macvim/).  
+- **./batinstall.sh** will install everything into a .bat_vim folder in your home directory.
 
 ## Plugins
 
@@ -19,20 +17,27 @@
 - [Surround.vim](https://github.com/tpope/vim-surround): all about "surroundings": parentheses, brackets, quotes, XML tags, and more.
 - [Supertab](https://github.com/ervandew/supertab): allows you to use Tab for all your insert completion needs.
 - [matchit](http://www.vim.org/scripts/script.php?script_id=39): extended % matching for HTML, LaTeX, and many other languages.
-- [autoclose](http://www.vim.org/scripts/script.php?script_id=1849): Inserts matching bracket, paren, brace or quote.
+- [autoclose](http://www.vim.org/scripts/script.php?script_id=1849): Inserts matching bracket, paren, brace or quote (sometimes acts buggy. leader-a to toggle).
+- [unite.vim](https://github.com/Shougo/unite.vim): Unite and create user interfaces.
+- [vim-startify](https://github.com/mhinz/vim-startify): A fancy start screen for Vim.
+- [neocomplcache](https://github.com/Shougo/neocomplcache.vim): Ultimate auto-completion system for Vim.
+- [neosnippet](https://github.com/Shougo/neosnippet.vim): neo-snippet plugin contains neocomplcache snippets source.
+- [vim-fugitive](https://github.com/tpope/vim-fugitive): a Git wrapper so awesome, it should be illegal.
 
 ## Bindings
 
-Esto es lo que mas uso, hay mas pero estan en "pruebas", si encontramos soluciones mejores lo vamos actualizando.
+Some usefull shortcuts:
 
 - \<leader\> = ",".
-- \<leader\>q = equivale a :q.
-- \<leader\>n = Abrir/Cerrar NerdTree.
-- \<leader\>v = Vertical Split.
-- \<leader\>k = Insert mode en el final del parrafo anterior.
-- \<leader\>j = Insert mode en el final del parrafo siguiente.
-- \<leader\>h = focus en split izquierdo.
-- \<leader\>l = focus en split derecho.
-- \<C-s\> = equivale a :w, si estas en insert mode pasa a normal mode despues de guardar.
-- \<C-k\> = mover linea o bloque de lineas arriba.
-- \<C-j\> = mover linea o bloque de lineas abajo.
+- \<leader\>-q = same as :q.
+- \<leader\>-n = toggle NerdTree.
+- \<leader\>-v = vertical split.
+- \<leader\>-h = focus in left split.
+- \<leader\>-l = focus in right split.
+- \<leader\>-f = when used at the starting line of a code block enclosed by curly braces, will select the whole block until the matching closing brace (enters visual mode). 
+- \<leader\>-s = same as :w. switches to normal mode.
+- \<Ctrl-k\> = move line or block of lines up.
+- \<Ctrl-j\> = move line or block of lines down.
+- \<Ctrl-f\> = fuzzy file finder starting at the current directory tree. ([:pwd] to check current root. [:cd path] to set root directory).
+- \<Space-g\> = searches for the given string inside files at the current directory tree. (needs Silver Searcher https://github.com/ggreer/the_silver_searcher).
+
