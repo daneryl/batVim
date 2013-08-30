@@ -10,7 +10,6 @@
 
 - [pathogen.vim](https://github.com/tpope/vim-pathogen): Manages the runtime path of the plugins.
 - [YankRing](https://github.com/vim-scripts/YankRing.vim): Maintains a history of previous yanks, changes and deletes.
-- [snipMate.vim](https://github.com/garbas/vim-snipmate): snipMate.vim aims to be a concise vim script that implements some of TextMate's snippets features in Vim.
 - [NERD Tree](https://github.com/scrooloose/nerdtree): A tree explorer plugin for vim.
 - [vim-airline](https://github.com/bling/vim-airline): Lean & mean statusline for vim that's light as air, visit github pages for font installation instructions.
 - [EasyMotion](https://github.com/Lokaltog/vim-easymotion): provides a much simpler way to use some motions in vim.
