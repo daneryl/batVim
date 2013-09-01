@@ -11,6 +11,7 @@ set expandtab
 set autoindent
 set cindent
 set smartindent
+set nofoldenable
 set tabstop=2
 set shiftwidth=2
 set pastetoggle=<F2>
@@ -51,4 +52,3 @@ let g:startify_custom_header = [
                 \ "     '8o          V          o8'       /_____/  \\__,_/  \\__/   |___/  /_/  /_/ /_/ /_/",
                 \ '       `                     `         ',
                 \ '',]
-

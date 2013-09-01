@@ -27,3 +27,10 @@ let g:syntastic_warning_symbol='!➤'
 let g:syntastic_enable_highlighting = 0
 let g:syntastic_stl_format = '[%E{%e Errors}%B{ and }%W{%w Warnings}]'
 "syntastyc
+
+"gitgutter
+let g:gitgutter_realtime = 0
+let g:gitgutter_enabled = 0
+let g:gitgutter_highlight_lines = 1
+hi SignColumn ctermbg=black
+"gitgutter

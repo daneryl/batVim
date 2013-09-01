@@ -36,6 +36,8 @@ Some usefull shortcuts:
 - `,l` = focus in right split.
 - `,f` = when used at the starting line of a code block enclosed by curly braces, will select the whole block until the matching closing brace (enters visual mode). 
 - `,s` = same as :w. switches to normal mode.
+- `,d` = toggles gitgutter
+- `,D` = fugitive :Gdiff
 - `,[space]` = strips trailing whitespace
 - `<Ctrl-k>` = move line or block of lines up.
 - `<Ctrl-j>` = move line or block of lines down.

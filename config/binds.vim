@@ -19,13 +19,15 @@ nmap <C-j> ddp
 vmap <C-k> xkP`[V`]
 vmap <C-j> xp`[V`]
 
-nmap <leader>n :NERDTreeToggle<CR>
-nmap <leader>m :NERDTree<CR>
-
-nnoremap <leader>v <C-w>v
 nmap <silent> <leader>h :wincmd h<CR>
 nmap <silent> <leader>l :wincmd l<CR>
-nmap <leader>q :q<CR>
+
+nnoremap <leader>v <C-w>v
+nmap <leader>n :NERDTreeToggle<CR>
+nmap <leader>m :NERDTree<CR>
+nmap <leader>q :q<CR> :Gedit<CR>
 nmap <leader><S-q> :q!<CR>
 nmap <leader>f <S-v>/{<cr>%
 nmap <leader><space> :call whitespace#strip_trailing()<CR>
+nmap <leader>d :GitGutterToggle<CR>
+nmap <leader><S-d> :GitGutterDisable<CR>:Gdiff<CR>zR
