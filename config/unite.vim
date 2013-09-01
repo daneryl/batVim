@@ -42,6 +42,5 @@ nnoremap <silent> [unite]g :Unite grep:. -auto-preview -auto-highlight -no-split
 nnoremap <silent> [unite]b :Unite -quick-match buffer<cr>
 nnoremap <silent> [unite]s :Unite session<cr>
 nnoremap <leader>g :UniteWithCursorWord grep:. -auto-preview -auto-highlight -no-split<cr>
-nnoremap <F4> :<C-u>UniteSessionSave
 
 let g:unite_source_session_enable_auto_save = 1
