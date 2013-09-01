@@ -13,7 +13,7 @@ inoremap <leader>s <C-O>:update<CR><ESC>
 
 " Bubble single lines
 nmap <C-k> ddkP
-nmap <C-j> ddp 
+nmap <C-j> ddp
 
 " Bubble multiple lines
 vmap <C-k> xkP`[V`]
@@ -27,8 +27,8 @@ nmap <silent> <leader>l :wincmd l<CR>
 nnoremap <leader>v <C-w>v
 nmap <leader>n :NERDTreeToggle<CR>
 nmap <leader>m :NERDTree<CR>
-nmap <leader>q :q<CR> :Gedit<CR>
-nmap <leader><S-q> :q!<CR>
+nmap <leader>q :q<CR>
+nmap <leader><S-q> :q<CR> :Gedit<CR>
 nmap <leader>f <S-v>/{<cr>%
 nmap <leader><space> :call whitespace#strip_trailing()<CR>
 nmap <leader>d :GitGutterToggle<CR>
