@@ -19,6 +19,7 @@ hi IndentGuidesEven ctermbg=235
 "syntastyc
 let g:syntastic_enable_signs=1
 let g:syntastic_check_on_open=1
+
 "let g:syntastic_auto_jump=1
 let g:syntastic_error_symbol='✗➤'
 let g:syntastic_style_error_symbol='✗➤'

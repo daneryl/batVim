@@ -23,8 +23,9 @@ nmap <leader>n :NERDTreeToggle<CR>
 nmap <leader>m :NERDTree<CR>
 
 nnoremap <leader>v <C-w>v
-nnoremap <leader>h <C-w>s
 nmap <silent> <leader>h :wincmd h<CR>
 nmap <silent> <leader>l :wincmd l<CR>
 nmap <leader>q :q<CR>
+nmap <leader><S-q> :q!<CR>
 nmap <leader>f <S-v>/{<cr>%
+nmap <leader><space> :call whitespace#strip_trailing()<CR>

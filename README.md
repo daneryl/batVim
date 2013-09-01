@@ -37,6 +37,7 @@ Some usefull shortcuts:
 - \<leader\>-l = focus in right split.
 - \<leader\>-f = when used at the starting line of a code block enclosed by curly braces, will select the whole block until the matching closing brace (enters visual mode). 
 - \<leader\>-s = same as :w. switches to normal mode.
+- ,[space] strips trailing whitespace
 - \<Ctrl-k\> = move line or block of lines up.
 - \<Ctrl-j\> = move line or block of lines down.
 - \<Ctrl-f\> = fuzzy file finder starting at the current directory tree. ([:pwd] to check current root. [:cd path] to set root directory).
