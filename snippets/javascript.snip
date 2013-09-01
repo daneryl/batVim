@@ -1,33 +1,35 @@
 #GENERIC
 
-snippet function_callback
-abbr    fcb
+snippet cb
+abbr callback_function
 options word
   function(${1:arguments}) {
     ${2:code...}
   }
 
 snippet log
-abbr    log
+abbr    console.log
 options word
   console.log(${1:to_log});
 
 #JASMINE
-snippet describe
-abbr    des
+snippet desc
+abbr    jasmine describe()
 options word
 	describe('${1:description}', function(){
 		${2:code...}
 	});
 
-snippet beforeEach
-abbr    bfe
+snippet bf
+alias before
+abbr    jasmine beforeEach()
 options word
 	beforeEach(function(){
 		${1:code...}
 	});
 
 snippet it
+abbr    jasmine it()
 options word
 	it('should ${1:....}', function(){
 		${2:code...}
