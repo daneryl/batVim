@@ -23,8 +23,6 @@ map + <leader><leader>w
 map <leader>+ <leader><leader>b
 map <leader>j <leader><leader>j
 map <leader>k <leader><leader>k
-map F <leader><leader>f
-map T <leader><leader>t
 nmap <leader>h :wincmd h<CR>
 nmap <leader>l :wincmd l<CR>
 noremap <leader>s :update<CR>
@@ -42,3 +40,5 @@ nmap <leader><S-d> :GitGutterDisable<CR>:Gdiff<CR>zR
 map <Leader>c ggVG"*y
 map <Leader>e :e <C-R>=expand("%:p:h") . '/'<CR>
 map <Leader>v :vnew <C-R>=expand("%:p:h") . '/'<CR>
+map <leader>r :source ~/.vimrc<CR>:set wrap!<CR>
+map <leader>z :NeoSnippetEdit<CR>

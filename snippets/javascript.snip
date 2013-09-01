@@ -1,12 +1,16 @@
 #GENERIC
 
-snippet callback
-abbr    cb
+snippet function_callback
+abbr    fcb
 options word
   function(${1:arguments}) {
     ${2:code...}
   }
 
+snippet log
+abbr    log
+options word
+  console.log(${1:to_log});
 
 #JASMINE
 snippet describe
