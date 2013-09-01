@@ -39,6 +39,9 @@ hi SignColumn ctermbg=black
 let g:airline_powerline_fonts = 1
 let g:airline_enable_fugitive=1
 
+"easyMotion
+let g:EasyMotion_keys = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXY+'
+
 "startify
 let g:startify_list_order = ['sessions', 'files', 'bookmarks']
 hi StartifyHeader  ctermfg=226
