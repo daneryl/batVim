@@ -21,6 +21,8 @@ nnoremap <F4> :SSave<CR>
 let mapleader = ","
 map + <leader><leader>w
 map <leader>+ <leader><leader>b
+map <leader>j <leader><leader>j
+map <leader>k <leader><leader>k
 map F <leader><leader>f
 map T <leader><leader>t
 nmap <leader>h :wincmd h<CR>
