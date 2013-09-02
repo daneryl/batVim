@@ -1,11 +1,44 @@
 #GENERIC
 
 snippet cb
+alias cb, call, callback
 abbr callback_function
 options word
   function(${1:arguments}) {
     ${2:code...}
   }
+
+snippet fn
+alias fn, function, fun
+abbr var = function...
+options word
+  var ${1:name} = function(${2:arguments}) {
+    ${3:code...}
+  };
+
+snippet :fn
+alias :fn, :function, :fun
+abbr var = function...
+options word
+  ${1:name}: function(${2:arguments}) {
+    ${3:code...}
+  }${4:,}
+
+snippet var
+abbr var = 'some value'
+options word
+  var ${1:name} = ${2:value}
+
+snippet =
+abbr something = 'some value'
+options word
+  ${1:name} = ${2:value}
+
+snippet req
+alias req, require
+abbr    require('...');
+options word
+  require('${1:path}');
 
 snippet log
 abbr    console.log
@@ -21,7 +54,7 @@ options word
 	});
 
 snippet bf
-alias before
+alias bf, before
 abbr    jasmine beforeEach()
 options word
 	beforeEach(function(){
@@ -34,3 +67,13 @@ options word
 	it('should ${1:....}', function(){
 		${2:code...}
 	});
+
+snippet exp
+abbr    jasmine expect()
+options word
+  expect(${1:prove}).${2:toBe}(${3:expectation});
+
+snippet spy
+abbr    jasmine spyOn()
+options word
+  spyOn(${1:object}, ${2:property});
