@@ -8,6 +8,11 @@ options word
     ${2:code...}
   }
 
+snippet then
+abbr .then for promises
+options word
+  .then(${1:callback});
+
 snippet fn
 alias fn, function, fun
 abbr var = function...
@@ -77,3 +82,47 @@ snippet spy
 abbr    jasmine spyOn()
 options word
   spyOn(${1:object}, ${2:property});
+
+snippet spec
+abbr    starting spec file
+options word
+  'use strict';
+
+  describe('${1:spec description}', function () {
+
+    beforeEach(function () {
+      ${2:prepare test}
+    });
+
+  });
+
+snippet ngspeccontroller
+abbr    starting angular controller spec file
+options word
+  'use strict';
+
+  describe('${1:spec description}', function () {
+    beforeEach(module('${2:module}'));
+
+    var scope;
+    var controller;
+
+    beforeEach(inject(function ($rootScope, $controller) {
+      scope = $rootScope.$new();
+
+      controller = $controller('${3:controller name}', {
+        $scope: scope
+      });
+    }));
+
+  });
+
+#ANGULAR
+snippet ngcontroller
+abbr    angular controller
+options word
+  'use strict';
+
+  angular.module('${1:module}').controller('${2:controller name}', function(${3:dependencies}){
+    ${4:code...}
+  });
