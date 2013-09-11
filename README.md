@@ -16,7 +16,6 @@
 - [NERDCommenter](https://github.com/scrooloose/nerdcommenter) : allows for easy commenting of code for many filetypes. 
 - [Indent Guides](https://github.com/nathanaelkane/vim-indent-guides): visually displaying indent levels in Vim.
 - [Surround.vim](https://github.com/tpope/vim-surround): all about "surroundings": parentheses, brackets, quotes, XML tags, and more.
-- [Supertab](https://github.com/ervandew/supertab): allows you to use Tab for all your insert completion needs.
 - [matchit](http://www.vim.org/scripts/script.php?script_id=39): extended % matching for HTML, LaTeX, and many other languages.
 - [autoclose](http://www.vim.org/scripts/script.php?script_id=1849): Inserts matching bracket, paren, brace or quote (sometimes acts buggy. leader-a to toggle).
 - [unite.vim](https://github.com/Shougo/unite.vim): Unite and create user interfaces.
