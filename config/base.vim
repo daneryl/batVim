@@ -1,4 +1,5 @@
 execute pathogen#infect()
+execute pathogen#helptags()
 
 filetype plugin on
 filetype indent on
