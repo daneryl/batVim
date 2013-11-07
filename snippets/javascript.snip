@@ -1,5 +1,10 @@
 #GENERIC
 
+snippet usestrict
+abbr use_strict
+options word
+  'use strict';
+
 snippet cb
 alias cb, call, callback
 abbr callback_function
@@ -96,6 +101,7 @@ options word
 
   });
 
+#ANGULAR
 snippet ngspeccontroller
 abbr    starting angular controller spec file
 options word
@@ -117,7 +123,6 @@ options word
 
   });
 
-#ANGULAR
 snippet ngcontroller
 abbr    angular controller
 options word
@@ -126,3 +131,18 @@ options word
   angular.module('${1:module}').controller('${2:controller name}', function(${3:dependencies}){
     ${4:code...}
   });
+
+snippet ngfactory
+abbr    angular factory
+options word
+  'use strict';
+
+  angular.module('${1:module}').factory('${2:service name}', function(${3:dependencies}){
+    ${4:code...}
+  });
+
+#ANGULAR
+snippet mochaexactly
+abbr    mocha should be exactly assert
+options word
+  should.be.exactly(${1:expect})
