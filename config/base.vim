@@ -22,7 +22,7 @@ set backspace=indent,eol,start
 set hlsearch
 set incsearch
 set ic " case insensitive search
-set clipboard=unnamed
+"set clipboard=unnamed
 
 " color scheme
 set t_Co=256
