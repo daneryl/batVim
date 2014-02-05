@@ -1,3 +1,6 @@
+git submodule init
+git submodule update
+
 mkdir ~/.bat_vim 2>/dev/null
 cp -fR $(pwd)/* ~/.bat_vim 2>/dev/null
 
