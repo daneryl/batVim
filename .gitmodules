@@ -16,3 +16,6 @@
 [submodule "bundle/unite.vim"]
 	path = bundle/unite.vim
 	url = git@github.com:Shougo/unite.vim.git
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = git@github.com:tpope/vim-fugitive.git
