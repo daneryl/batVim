@@ -25,3 +25,6 @@
 [submodule "bundle/nerdcommenter.vim"]
 	path = bundle/nerdcommenter.vim
 	url = git@github.com:scrooloose/nerdcommenter.git
+[submodule "bundle/nerdtree.vim"]
+	path = bundle/nerdtree.vim
+	url = git@github.com:scrooloose/nerdtree.git
