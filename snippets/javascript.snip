@@ -89,6 +89,11 @@ abbr    jasmine spyOn()
 options word
   spyOn(${1:object}, ${2:property});
 
+snippet spyfunc
+abbr    jasmine createSpy()
+options word
+  var ${1:method} = jasmine.createSpy('${2:method}');
+
 snippet spec
 abbr    starting spec file
 options word
