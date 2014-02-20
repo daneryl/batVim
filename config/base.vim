@@ -35,3 +35,9 @@ colorscheme solarized
 " color scheme
 "
 
+autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4
+
+if &term =~ '256color'
+  set t_ut=
+endif
+
