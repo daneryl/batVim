@@ -1,4 +1,4 @@
-# vim-javascript v0.8.0
+# vim-javascript v0.9.0
 
 JavaScript bundle for vim, this bundle provides syntax and indent plugins.
 
@@ -22,7 +22,7 @@ then simply perform the following commands to fix your current buffer:
 
 ## Installation
 
-- Install with [Vundle](https://github.com/gmarik/vundle)
+### Install with [Vundle](https://github.com/gmarik/vundle)
 
 Add to vimrc:
 
@@ -33,10 +33,10 @@ And install it:
     :so ~/.vimrc
     :BundleInstall
 
-- Install with [pathogen](https://github.com/tpope/vim-pathogen)
+### Install with [pathogen](https://github.com/tpope/vim-pathogen)
 
-    cd ~/.vim/bundle
-    git clone https://github.com/pangloss/vim-javascript.git
+      cd ~/.vim/bundle
+      git clone https://github.com/pangloss/vim-javascript.git
 
 ## Configuration
 

@@ -25,10 +25,13 @@ set ic " case insensitive search
 "set clipboard=unnamed
 
 " color scheme
-set t_Co=256
 syntax on
 syntax enable
 set background=dark 
-colorscheme peaksea
+let g:solarized_termcolors=256
+let g:solarized_visibility="low"
+"colorscheme solarized
+colorscheme solarized
 " color scheme
+"
 
