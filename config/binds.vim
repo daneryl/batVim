@@ -43,4 +43,10 @@ map <Leader>v :vnew <C-R>=expand("%:p:h") . '/'<CR>
 map <leader>r :source ~/.vimrc<CR>:set wrap!<CR>
 map <leader>z :NeoSnippetEdit<CR>
 
+"quita oids de fixtures de mongo
 map <leader>o :%s/{\s"\$oid"\s:\s\(".\{24\}"\)\s}/id(\1)/g<CR>
+
+"injecta function done en jasmine it, beforeEach o afterEach
+map <leader>d ?it\\|beforeEach\\|afterEach<cr>f)idone<esc>:w<cr>/<up><up><cr><C-o>
+
+
