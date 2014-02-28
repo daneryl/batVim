@@ -43,3 +43,4 @@ Some usefull shortcuts:
 - `<Ctrl-f>` = fuzzy file finder starting at the current directory tree. ([:pwd] to check current root. [:cd path] to set root directory).
 - `<Space-g>` = searches for the given string inside files at the current directory tree. (needs Silver Searcher https://github.com/ggreer/the_silver_searcher).
 
+Best with [batTmux](http://github.com/daneryl/battmux)!
