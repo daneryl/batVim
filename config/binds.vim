@@ -49,4 +49,6 @@ map <leader>o :%s/{\s"\$oid"\s:\s\(".\{24\}"\)\s}/id(\1)/g<CR>
 "injecta function done en jasmine it, beforeEach o afterEach
 map <leader>d ?it\\|beforeEach\\|afterEach<cr>f)idone<esc>:w<cr>/<up><up><cr><C-o>
 
+"Desactivar el highlight de la última búsqueda con ENTER"
+nnoremap <CR> :noh<CR><CR>
 
