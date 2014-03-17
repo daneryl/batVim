@@ -34,3 +34,6 @@
 [submodule "bundle/indent_guides.vim"]
 	path = bundle/indent_guides.vim
 	url = git@github.com:nathanaelkane/vim-indent-guides.git
+[submodule "bundle/matchit"]
+	path = bundle/matchit
+	url = git@github.com:tmhedberg/matchit.git
