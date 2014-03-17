@@ -31,9 +31,6 @@
 [submodule "bundle/yankring.vim"]
 	path = bundle/yankring.vim
 	url = git@github.com:vim-scripts/YankRing.vim.git
-[submodule "bundle/matchit.vim"]
-	path = bundle/matchit.vim
-	url = git@github.com:tsaleh/vim-matchit.git
 [submodule "bundle/indent_guides.vim"]
 	path = bundle/indent_guides.vim
 	url = git@github.com:nathanaelkane/vim-indent-guides.git
