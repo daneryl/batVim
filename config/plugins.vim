@@ -5,6 +5,12 @@ let g:snipMate.scope_aliases['html'] = 'html,angularjs-html'
 let g:snipMate.scope_aliases['javascript'] = 'javascript,jasmine'
 " snipmate
 
+" conque-shell
+let g:ConqueTerm_Color = 2
+let g:ConqueTerm_CWInsert = 1
+let g:ConqueTerm_TERM = 'xterm'
+"
+
 " powerline
 set laststatus=2
 " powerline
