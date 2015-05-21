@@ -33,7 +33,7 @@
 	url = git@github.com:vim-scripts/YankRing.vim.git
 [submodule "bundle/indent_guides.vim"]
 	path = bundle/indent_guides.vim
-	url = git@github.com:nathanaelkane/vim-indent-guides.git
+  url = https://github.com/nathanaelkane/vim-indent-guides.git
 [submodule "bundle/matchit"]
 	path = bundle/matchit
 	url = git@github.com:tmhedberg/matchit.git
@@ -46,3 +46,6 @@
 [submodule "bundle/vim-bundler"]
 	path = bundle/vim-bundler
 	url = https://github.com/tpope/vim-bundler.git
+[submodule "bundle/tabular"]
+	path = bundle/tabular
+	url = git@github.com:godlygeek/tabular.git
