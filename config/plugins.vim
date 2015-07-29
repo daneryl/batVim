@@ -42,6 +42,9 @@ let g:airline_enable_fugitive=1
 "easyMotion
 let g:EasyMotion_keys = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXY+'
 
+"vim-clojure-static
+let g:clojure_align_multiline_strings = 1
+
 "startify
 let g:startify_list_order = ['sessions', 'files', 'bookmarks']
 hi StartifyHeader  ctermfg=226
