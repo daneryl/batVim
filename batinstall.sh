@@ -12,7 +12,8 @@ source ~/.bat_vim/config/plugins.vim
 source ~/.bat_vim/config/binds.vim
 source ~/.bat_vim/config/neocomplcache.vim
 source ~/.bat_vim/config/neosnippet.vim
-source ~/.bat_vim/config/unite.vim' > ~/.vimrc
+source ~/.bat_vim/config/unite.vim
+set t_Co=256' > ~/.vimrc
 
 if [ ! -w ~/.viminfo ] 
 then 
